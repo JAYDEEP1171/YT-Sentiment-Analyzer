@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: youtube-sentiment-app
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: YOUTUBE_API_KEY
+        value: AIzaSyBBdsWdGANyUZDyn6v1yG8m7Tchx99fAdI
